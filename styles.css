@@ -5,7 +5,7 @@
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: url('fonts/inter-v20-latin-300.woff2') format('woff2');
+    src: url('inter-v20-latin-300.woff2') format('woff2');
 }
 
 /* Inter 400 */
@@ -14,7 +14,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('fonts/inter-v20-latin-regular.woff2') format('woff2');
+    src: url('inter-v20-latin-regular.woff2') format('woff2');
 }
 
 /* Inter 500 */
@@ -23,7 +23,7 @@
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url('fonts/inter-v20-latin-500.woff2') format('woff2');
+    src: url('inter-v20-latin-500.woff2') format('woff2');
 }
 
 /* Inter 600 */
@@ -32,7 +32,7 @@
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url('fonts/inter-v20-latin-600.woff2') format('woff2');
+    src: url('inter-v20-latin-600.woff2') format('woff2');
 }
 
 /* Inter 700 */
@@ -41,7 +41,7 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url('fonts/inter-v20-latin-700.woff2') format('woff2');
+    src: url('inter-v20-latin-700.woff2') format('woff2');
 }
 
 /* Outfit 300 */
@@ -50,7 +50,7 @@
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: url('fonts/outfit-v15-latin-300.woff2') format('woff2');
+    src: url('outfit-v15-latin-300.woff2') format('woff2');
 }
 
 /* Outfit 400 */
@@ -59,7 +59,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('fonts/outfit-v15-latin-regular.woff2') format('woff2');
+    src: url('outfit-v15-latin-regular.woff2') format('woff2');
 }
 
 /* Outfit 600 */
@@ -68,7 +68,7 @@
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url('fonts/outfit-v15-latin-600.woff2') format('woff2');
+    src: url('outfit-v15-latin-600.woff2') format('woff2');
 }
 
 /* Outfit 800 */
@@ -77,7 +77,7 @@
     font-style: normal;
     font-weight: 800;
     font-display: swap;
-    src: url('fonts/outfit-v15-latin-800.woff2') format('woff2');
+    src: url('outfit-v15-latin-800.woff2') format('woff2');
 }
 
 :root {
