@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Grazie! | Tonetto Ingrosso Carta</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --primary: #059669;
+            --primary-glow: rgba(16, 185, 129, 0.4);
+            --secondary: #0f172a;
+            --text: #1e293b;
+            --bg: #f8fafc;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .success-card {
+            background: white;
+            padding: 3rem;
+            border-radius: 2rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .icon-box {
+            width: 80px;
+            height: 80px;
+            background: rgba(5, 150, 105, 0.1);
+            color: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            color: var(--secondary);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: #64748b;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px -1px var(--primary-glow);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px var(--primary-glow);
+            filter: brightness(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="success-card">
+        <div class="icon-box">
+            <i data-lucide="check-circle-2" width="48" height="48"></i>
+        </div>
+        <h1>Richiesta Inviata!</h1>
+        <p>Grazie per aver contattato <strong>Tonetto Ingrosso Carta</strong>.<br>Abbiamo ricevuto il tuo messaggio e ti
+            risponderemo al più presto.</p>
+        <a href="index.html" class="btn">Torna alla Home</a>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
